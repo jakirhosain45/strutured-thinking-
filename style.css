@@ -1,0 +1,151 @@
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+  margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.list-items{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    
+}
+.list-items li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.list-items li a:hover{
+    color: #44a96e;
+}
+.btn-primary{
+    font-size: 20px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    
+}
+.btn-primary:hover{
+    background-color:#8fcba8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.banner{
+    background-image: url(./assets/hero-bg.png);
+    margin-top: 20px;   
+}
+.open-btn{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #44a96e;
+    border: none;
+}
+.open-btn:hover{
+    background-color: #30B868;
+    color: white;
+    cursor: pointer;
+}
+.banner-title{
+    color: rgba(48, 184, 104, 1);
+}
+.banner-container{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner-container h3{
+    color: #30B868;
+    background-color: white;
+}
+.banner-container h1{
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+}
+.banner-container p{
+    color: rgb(206, 215, 224);
+    margin: 20px 0;
+    line-height: 30px;
+}
+.start-btn{
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+}
+.start-btn:hover{
+    background-color: #8fcba8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.see-btn{
+    background-color: #434745;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+}
+.see-btn:hover{
+    cursor: pointer;
+    background-color: #6cb48a;
+}
+.notes{
+    text-align: center;
+    margin-top: 80px;
+}
+.notes h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.notes p{
+    color: rgb(127, 138, 149);
+    margin-top: 10px;
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.card-container{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    box-shadow: 3px 0 15px rgb(232, 229, 229);
+    border-radius: 5px;
+}
+.card h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.card p{
+    color: #626564;
+    padding: 10px;
+}
+.img{
+    background-color: orangered;
+    border-radius: 100%;
+    padding: 10px;
+}
