@@ -176,3 +176,17 @@ main{
     padding: 5px 3px;
     color: white;
 }
+.clearly-section{
+    background-color: rgb(247, 245, 236);
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 10px;
+}
+.clearly-section h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.clearly-section p{
+    color: rgb(164, 162, 162);
+    padding: 20px 0;
+}
